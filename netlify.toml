@@ -1,0 +1,9 @@
+[build]
+  publish = "frontend/src"
+  functions = "netlify/functions"
+
+[dev]
+  framework = "#static"
+
+[functions]
+  node_bundler = "esbuild"

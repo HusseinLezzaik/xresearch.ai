@@ -1,0 +1,17 @@
+{
+  "name": "xresearch",
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0"
+  },
+  "exports": {
+    "./netlify/functions/get-gpt4-locations.js": {
+      "require": "./netlify/functions/get-gpt4-locations.js"
+    }
+  }
+}
